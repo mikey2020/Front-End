@@ -31,20 +31,27 @@ span{
 
 #form-title{
 	position: relative;
-	top: 70px;
-	font-size: 35px;
+	top: 90px;
+	font-size: 30px;
+	font-weight: 300;
 
 }
 
 .form{
 	position: relative;
-	top: 100px;
+	top: 80px;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 .form-display{
 	position: fixed;
-	right: 480px;
-	/*font-size: 20px;*/
+	top: 30px;
+	right: 470px;
+	font-size: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 20px;
 }
 
 input{
@@ -52,13 +59,19 @@ input{
 	padding-left: 5px;
 	padding-right: 10px;
 	padding-top: 15px;
-	padding-bottom: 20px;
+	padding-bottom: 16px;
 	margin-bottom: 20px;
 	height: 10px;
 	width: 380px;
-	border: 1px solid #8C8F91     ;
-	border-radius: 2px;
+	border: 1px solid #D5E9F6     ;
+	border-radius: 5px;
 	font-weight: bold;
+
+}
+
+input[type="checkout"]{
+	font-size: 100px;
+	height: 50px;
 
 }
 
@@ -74,7 +87,6 @@ input{
 	border-radius: 12px;
 }
 
-#check{
-	font-size: 3px;
-	text-align: center;
+body{
+	font-size: 25px;
 }
